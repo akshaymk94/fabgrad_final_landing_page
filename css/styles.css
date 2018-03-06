@@ -1,0 +1,517 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+section {
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #222;
+}
+
+#hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#heroImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 25%;
+    height: 100vh;
+    min-width: 100%;
+    background: #E5485E no-repeat;
+    z-index: -100;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+#fabgradLogo {
+    height: 100%;
+}
+
+#navbarContent ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+#heroContent {
+    display: inline-block;
+    margin: 10% 0 0 3%;
+    color: white;
+    text-align: center;
+}
+
+#heroContent h1 {
+    color: #FF910F;
+}
+
+#heroContent p {
+    color: #FFA030;
+    font-size: 16px;
+}
+
+.form-group {
+    display: inline;
+    width: inherit;
+    padding: 0;
+}
+
+#studentEmail {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+}
+
+
+.btnSignUp {
+    color: white;
+    background: #E5485E;
+}
+
+.specialities {
+    padding: 50px;
+    height: 100vh;
+    background: #F7F7F7;
+}
+
+.speciality {
+    width: 85%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section-item {
+    border: solid 10px #F7F7F7;
+    background: #fff;
+    padding: 4%;
+    -webkit-border-radius: 15px;
+    box-sizing: border-box;
+    height: inherit;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 500;
+    margin: 5% 0 2% 0;
+    color: #555;
+    
+}
+
+.section-desc {
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+        margin: 2% 0;
+
+}
+
+.mini-separator {
+    margin: 2% auto;
+    border: solid 1px #E5485E;
+    width: 10%;
+    -webkit-border-radius: 10px;
+}
+
+.section-item li {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#speaciality-1 {
+        color: #88FD58;
+
+}
+
+#speaciality-2 {
+    color: #7BD7FF;
+}
+
+#speaciality-3 {
+    color: #FF707F;
+}
+
+.section-item p {
+    font-size: 20px;
+    color: #666;
+}
+
+.story-line {
+    background: #F7F7F7;
+}
+
+.story {
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.story-content {
+    background: #FFF;
+    padding: 40px 30px;
+    margin-top: 80px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+.story-header {
+    color: #7800FF;
+}
+
+.story-desc {
+    color: #7C7C7C;
+}
+
+.major-separator {
+    width: 80%;
+    border: solid 0.5px #DDD;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+}
+
+.careerAd {
+    min-height: 100vh;
+    background: #F7F7F7;
+}
+
+.careerAdList li {
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #7C7C7C;
+}
+
+.careerAdGrids {
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto;
+    
+}
+
+#careerAdGrid-1, #careerAdGrid-2, #careerAdGrid-3 {
+    position: relative;
+    height: ;
+    -webkit-border-radius:5px;
+    -mo-border-radius:5px;
+    border-radius: 5px;    
+    text-align: center;
+    background: #FFF;
+}
+
+/*#careerAdGrid-1 {
+    margin: 0 4.75%;
+}
+
+#careerAdGrid-1 img, #careerAdGrid-2 img, #careerAdGrid-3 img {
+    width: 70%;
+    margin: 35px 0;
+}
+
+#careerAdGrid-3 {
+    margin: 0 4.75%;
+}*/
+
+.careerGrid-header {
+    color: #7800FF;
+}
+
+.careerGrid-desc {
+    color: #7C7C7C;
+}
+
+.inline-separator {
+    border: solid 1px #DDD;
+    margin: 15px auto;
+    -webkit-border-radius: 10px;
+}
+
+.signUpDiv {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.signUpForm {
+    text-align: center;
+    margin: auto 30px;
+}
+
+.queries {
+    height: 100vh;
+    background: #FEFEFE;
+    box-sizing: border-box;
+}
+
+.queries .row {
+    padding: 100px 0 0;
+}
+
+.contactDetails {
+/*
+    border: solid 1px red;
+*/
+    padding: 0;
+    
+}
+
+.contactDetails h2 {
+    margin: 0 0 20px;
+}
+
+.contactDetails p {
+    margin: 20px 0;
+    color: #7C7C7C;
+}
+
+.contactDetails label {
+    display: block;
+    margin: 20px 0 10px;
+    color: #7C7C7C;
+    letter-spacing: 2px;
+    
+}
+
+.contactForm {
+    padding-left: 0;
+    padding-right: 0;
+/*
+    border: solid 1px blue;
+*/
+    
+}
+
+.contactForm input[type="text"], .contactForm textarea {
+    background: #F0F0F0;
+} 
+
+.form-group {
+    margin: 0;
+    padding: 0;
+}
+
+
+#userFullName, #userEmail {
+    display: inline;
+    width: 49%;
+    margin-bottom: 10px;
+    
+}
+
+.contactForm label {
+    display: block;
+    margin: 20px 0 5px;
+    color: #7C7C7C;
+}
+
+#typeOfUser {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#typeOfUser li {
+    display: inline-block;
+    border: solid 1px #DDD;
+    text-align: center;
+    background: #eee;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px 10px;
+/*
+    margin-right: 10px;
+*/
+    -webkit-border-radius: 5px;
+}
+
+#typeOfUser li:hover, #typeOfUser li *:hover  {
+    cursor: pointer;
+    background: #C1C1C1;
+}
+
+
+#typeOfUser li input[type="radio"] {
+display: none;
+}
+
+#typeOfUser li label {
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+#inputMessage {
+    margin: 20px 0;
+    resize: none;
+}
+
+.page-footer {
+    min-height: auto;
+    width: 100%;
+    background: #1C2234;
+    color: #999;
+    padding: 50px 50px 20px;
+}
+
+.page-footer h5 {
+    letter-spacing: 2px;
+    color: #999
+}
+
+.footerColumn {
+    text-align: center;
+    padding: 0;
+}
+
+.page-footer ul {
+    list-style: none;
+    padding: 0;
+/*
+    border: solid 1px #FFF;
+*/
+}
+
+.footerColumn-1 ul li, .footerColumn-2 ul li {
+    margin: 10px 0;
+}
+
+
+.socialLinks li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.footerColumn li:hover, .socialLinks li:hover {
+    cursor: pointer;
+    color: #FFF;
+}
+
+#playStoreDownload {
+    width: 50%;
+    margin: 20px auto 0;
+    height: auto;
+}
+
+.footer-separator {
+    width: 80%;
+    border: solid 0.5px #555;
+    margin: 50px auto;
+    -webkit-border-radius: 10px;
+}
+
+.copyright {
+    display: block;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+    #heroContent h1 {
+        font-size: 24px;
+    }
+    
+    #heroContent p {
+        font-size: 14px;
+    }
+    
+    #studentEmail {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    #signUp {
+        width: ;
+    }
+    
+    .speciality {
+        text-align: center;
+    }
+    
+    .inline-separator{
+        display: none;
+    }
+    
+    .contactDetails {
+        padding: 0;
+    }
+    
+    .queries .row {
+        padding: 20px 0 0;
+    }
+    
+    .contactForm {
+        padding-top: 20px;
+    }
+    
+    .footerColumn-1, .footerColumn-2 {
+        border-bottom: solid 1px #333;
+    }
+    
+    .socialLinks img {
+        display: block;
+    }
+    
+    #playStoreDownload {
+        width: 20%;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    
+    .specialities {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
